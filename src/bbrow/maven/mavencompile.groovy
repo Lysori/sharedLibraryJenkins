@@ -1,5 +1,7 @@
 package bbrow.maven
 
+import bbrow.maven.MavenCompileInterface
+
 class MavenCompile{
 
     MavenCompileInterface service
