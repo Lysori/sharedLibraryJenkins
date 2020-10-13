@@ -2,7 +2,7 @@ package bbrow.services
 
 import bbrow.maven.*
 
-class MavenCompileService implements MavenCompileInterface {
+class MavenCompileService implements MavencompileInterface {
 
     String compile(){
 

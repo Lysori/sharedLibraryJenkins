@@ -1,5 +1,5 @@
 package bbrow.maven
 
-interface mavencompileInterface {
+interface MavencompileInterface {
     String compile()
 }
