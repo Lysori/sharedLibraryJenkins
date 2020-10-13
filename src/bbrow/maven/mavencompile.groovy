@@ -1,10 +1,11 @@
 package bbrow.maven
 
+
 class MavenCompile{
 
-    MavenCompileInterface service
+    mavencompileInterface service
 
-    public MavenCompile(MavenCompileInterface service){
+    public MavenCompile(mavencompileInterface service){
         this.service = service
     }
 
