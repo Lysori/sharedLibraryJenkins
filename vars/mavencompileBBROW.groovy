@@ -10,8 +10,8 @@ println test
 
 def compile(){
 
-def service = new MavencompileService()
-MavenCompile mc = new MavenCompile(service)
+def service = new mavencompileService()
+mavencompile mc = new mavencompile(service)
 
 String s=mc.compile()
 println s
