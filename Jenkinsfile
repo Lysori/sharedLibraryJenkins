@@ -4,8 +4,7 @@ pipeline {
         stage('all') {
             steps {
                 script {
-                    echo 'erster Funktionstest'
-                    echo 'trigger test'
+                    mavencompileBBROW.version()
                 }
             }
         }
