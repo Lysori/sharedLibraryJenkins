@@ -1,11 +1,10 @@
 package bbrow.services
 
-import bbrow.maven.*
+import bbrow.mavencore.*
 
-class mavencompileService implements mavencompileInterface {
+class MavenService implements MavenInterface{
 
     String compile(){
-
         String result="mvn compile".execute().text
 
         return result

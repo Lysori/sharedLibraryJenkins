@@ -1,4 +1,4 @@
-import bbrow.maven.*
+import bbrow.mavencore.*
 import bbrow.services.*
 
 def version(){
@@ -10,10 +10,9 @@ println test
 
 def compile(){
 
-def service = new mavencompileService()
-mavencompile mc = new mavencompile(service)
-
-String s=mc.compile()
-println s
+   def service = new MavenService()
+    MavenCompile mc = new MavenCompile(service)
+    String c=mc.compile()
+    println c
 
 }
