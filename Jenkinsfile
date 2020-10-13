@@ -5,6 +5,7 @@ pipeline {
             steps {
                 script {
                     echo 'erster Funktionstest'
+                    echo 'trigger test'
                 }
             }
         }
