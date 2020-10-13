@@ -8,11 +8,11 @@ println test
 
 }
 
-def compile(){
+//def compile(){
 
-   def service = new MavenService()
-    MavenCompile mc = new MavenCompile(service)
-    String c=mc.compile()
-    println c
+  // def service = new MavenService()
+  //  MavenCompile mc = new MavenCompile(service)
+  //  String c=mc.compile()
+  //  println c
 
-}
+//}
