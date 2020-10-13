@@ -1,5 +1,5 @@
-import bbrow.maven*
-import bbrow.services*
+import bbrow.maven.*
+import bbrow.services.*
 
 def version(){
 
