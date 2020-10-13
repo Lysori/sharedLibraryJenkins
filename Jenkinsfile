@@ -4,6 +4,7 @@ pipeline {
         stage('all') {
             steps {
                 script {
+                    echo 'erster Funktionstest'
                 }
             }
         }
