@@ -1,6 +1,6 @@
 package bbrow.maven
 
-import bbrow.maven.MavenCompileInterface
+import bbrow.maven.mavencompileInterface
 
 class MavenCompile{
 
